@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O habits é um app para ajudar a rastrear os hábitos.
 
+- [Visite o projeto online](https://gutemberghvieira.github.io/nlw-setup/)
+
 ## :memo: Lincença
 
 Esse projeto está sob a licença MIT.
