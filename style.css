@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0f0f;
+
+  color: white;
+  height: 100vh;
+}
+
+
+header{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  
+  width:100%;
+  
+  padding: 48px;
+  position:fixed;
+
+
+
+}
+
+
+#form-habits{
+ display:flex;
+  
+ padding:182px 48px 48px;
+ width:fit-content;
+}
+
+
+/***********************
+inicio hábitos*/
+
+
+.habits{
+  margin-top:65px;
+  display:flex;
+  flex-direction:column;
+
+  gap:24px;
+}
+
+
+.habit{
+ 
+
+  width: 64px;
+  height:64px;
+
+  font-size: 32px;
+  
+  
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  
+
+}
+
+
+/***********************
+Fim Hábitos*/
+
+
+
+/************************************
+Definindo Days */
+.days{
+  display: flex;
+  margin-left: 32px;
+  gap:48px;
+  
+}
+
+.day {
+  display: flex;
+  flex-direction:column;
+  gap:24px;
+  text-align: center;
+
+}
+
+.day div{
+  margin: 8px;
+  font-family:'Roboto Mono';
+
+  font-size: 20px;
+  line-height:125%;
+  color: #a1a1aa;
+}
+/************************************
+Fim da propriedade Day */
+
+
+
+input{
+  
+  appearance: none;
+
+  -webkit-appearance: none;
+
+width: 64px;
+height: 64px;
+border: 2px solid #2727272A;
+ background: #18181B;
+ border-radius: 8px; 
+
+}
+
+input:checked{
+ background: #7C3AED;
+ border: 2px solid #5B21B6;
+ 
+}
+
+@media(max-width: 570px){
+  button div{
+    display:none;
+  }
+ 
+
+}
+
+
+/*****************************
+Inicio propriedade button*/
+
+
+
+
+button{
+  padding: 16px 24px;
+ 
+  font-family:"inter";
+  font-weight:600;
+
+  cursor:pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background:transparent;
+  color:white;
+  border:2px solid #7C3AED;
+  border-radius: 8px;
+  box-shadow: 4px 2px 5px #7C3AED;
+  gap: 12px;
+
+  line-height: 125%;
+}
+
+/***********************************
+Fim Propriedade button*/
